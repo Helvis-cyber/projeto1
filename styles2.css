@@ -1,0 +1,158 @@
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  text-align: center;
+}
+
+.linha-horizontal {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.lista {
+  list-style: none;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.cabecalho-menu-item .icone-cabecalho {
+  height: 70px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.cabecalho-menu-item {
+  text-decoration: none;
+  color: black;
+}
+
+.imagem-1 {
+  width: 20%;
+  float: left;
+  padding-right: 30px;
+}
+
+.imagem-2 {
+  width: 20%;
+  float: right;
+  padding-left: 30px;
+}
+
+.nuvem-top {
+  position: absolute;
+  right: 300px;
+  top: 150px;
+}
+
+.nuvem-top1 {
+  position: absolute;
+  bottom: 500px;
+  left: 900px;
+}
+.garoto {
+  padding-top: 30px;
+}
+
+.cabecalho-2 {
+  position: center;
+  padding-top: 80px;
+}
+
+.nuvem-bottom {
+  position: absolute;
+}
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 70px auto 70px auto;
+  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.paragra-menu1 {
+  width: 30%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Varela Round", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  margin: 10px 20px;
+}
+
+.copyright {
+  color: #eaf6f6;
+}
+
+/* Fontes */
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+}
